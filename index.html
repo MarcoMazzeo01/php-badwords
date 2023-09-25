@@ -7,7 +7,14 @@
   </head>
   <body>
     <form action="bad-words.php" method="post">
-      <input type="text" name="sentence" placeholder="Scrivi una frase..." />
+      <div>
+        <textarea name="sentence" placeholder="Scrivi una frase..."></textarea>
+      </div>
+      <input
+        type="text"
+        name="filter"
+        placeholder="Quale parola vuoi censurare..."
+      />
       <button>Invia</button>
     </form>
   </body>
