@@ -1,6 +1,6 @@
 <?php
 $query = $_POST['sentence'];
-$bad_words = ['composto', 'questo', 'giogo', 'problematica', 'completo'];
+$filter = $_POST['filter'];
 
 echo "{$query} | (Lunghezza: ". strlen($query) .")";
 
