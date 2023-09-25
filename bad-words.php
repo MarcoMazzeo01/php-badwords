@@ -1,2 +1,3 @@
-<?php 
-echo "hi bitch";
+<?php
+$query = $_POST['sentence'];
+echo $query;
