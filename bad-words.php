@@ -1,3 +1,5 @@
 <?php
 $query = $_POST['sentence'];
-echo $query;
+$bad_words = ['composto', 'questo', 'giogo', 'problematica', 'completo'];
+
+echo $query, ' | (Lunghezza: ' . strlen($query) . ')';
